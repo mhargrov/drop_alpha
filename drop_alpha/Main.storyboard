@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6yb-Yg-5F8">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController title="Home" id="vXZ-lx-hvc" customClass="HomeViewController" customModule="Rippl" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Home" id="kKh-0s-DsJ"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Vzt-NK-Y31"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1070" y="84"/>
+        </scene>
+        <!--Post-->
+        <scene sceneID="fTI-0t-38F">
+            <objects>
+                <viewController id="1UF-Wp-W5c" customClass="PostViewController" customModule="Rippl" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O2W-h4-S0A"/>
+                        <viewControllerLayoutGuide type="bottom" id="X7Y-A5-GMS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Frj-yH-LNJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Post" id="hfB-uV-dia"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FSS-Es-hY8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1070" y="857"/>
+        </scene>
+        <!--Liked Messages-->
+        <scene sceneID="LuA-G8-Azf">
+            <objects>
+                <viewController title="Liked Messages" id="par-JL-u1c" customClass="LikedMessagesViewController" customModule="Rippl" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nDe-5j-qjs"/>
+                        <viewControllerLayoutGuide type="bottom" id="B50-94-6IZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="747-he-HWX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Kept" id="UkU-rf-SPw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z5t-uA-AHi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="334" y="857"/>
+        </scene>
+        <!--Account View Controller-->
+        <scene sceneID="9Rn-1k-vWl">
+            <objects>
+                <viewController title="Account View Controller" id="yiS-g5-zNd" customClass="AccountViewController" customModule="Rippl" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TO3-SP-1mT"/>
+                        <viewControllerLayoutGuide type="bottom" id="Z4O-yt-IKn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="i6O-vv-101">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Account" id="Cva-lD-mvo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lyE-Wk-PB7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-346" y="635"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="qD6-n0-rK6">
+            <objects>
+                <tabBarController id="6yb-Yg-5F8" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Xl5-aI-KTo">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.16411804050000001" green="0.22765972270000001" blue="0.66769255049999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="216-QS-X2e"/>
+                        <segue destination="1UF-Wp-W5c" kind="relationship" relationship="viewControllers" id="Vjn-4D-say"/>
+                        <segue destination="par-JL-u1c" kind="relationship" relationship="viewControllers" id="bfK-Yl-wPf"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cOv-Pb-nzm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="334" y="84"/>
+        </scene>
+    </scenes>
+</document>
