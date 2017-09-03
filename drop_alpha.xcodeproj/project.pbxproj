@@ -7,15 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A55C42BF1F5C579100F507CE /* Podfile in Sources */ = {isa = PBXBuildFile; fileRef = A55C42BE1F5C579100F507CE /* Podfile */; };
 		A588ADCF1F5BB9950026DD1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588ADCE1F5BB9950026DD1C /* AppDelegate.swift */; };
 		A588ADD11F5BB9950026DD1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588ADD01F5BB9950026DD1C /* ViewController.swift */; };
 		A588ADD41F5BB9950026DD1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A588ADD21F5BB9950026DD1C /* Main.storyboard */; };
 		A588ADD71F5BB9950026DD1C /* drop_alpha.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A588ADD51F5BB9950026DD1C /* drop_alpha.xcdatamodeld */; };
 		A588ADD91F5BB9950026DD1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A588ADD81F5BB9950026DD1C /* Assets.xcassets */; };
 		A588ADDC1F5BB9950026DD1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A588ADDA1F5BB9950026DD1C /* LaunchScreen.storyboard */; };
+		A588AE241F5BBA1E0026DD1C /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588ADE41F5BBA130026DD1C /* Navigator.swift */; };
+		A588AE251F5BBA1E0026DD1C /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588ADE51F5BBA130026DD1C /* PostViewController.swift */; };
+		A588AE261F5BBA1E0026DD1C /* AppDelegateCoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588ADE61F5BBA130026DD1C /* AppDelegateCoreLocation.swift */; };
+		A588AE271F5BBA1E0026DD1C /* PeerQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588ADE71F5BBA130026DD1C /* PeerQueue.swift */; };
+		A588AE291F5BBA1E0026DD1C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588ADE91F5BBA130026DD1C /* User.swift */; };
+		A588AE2A1F5BBA1E0026DD1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588ADEA1F5BBA130026DD1C /* ViewController.swift */; };
+		A588AE2B1F5BBA1E0026DD1C /* Messaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588ADEB1F5BBA130026DD1C /* Messaging.swift */; };
+		A588AE2E1F5BBA1E0026DD1C /* AppDelegateMultipeerConnectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588ADEE1F5BBA140026DD1C /* AppDelegateMultipeerConnectivity.swift */; };
+		A588AE2F1F5BBA1E0026DD1C /* drop_v1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A588ADEF1F5BBA140026DD1C /* drop_v1.xcdatamodeld */; };
+		A588AE301F5BBA1E0026DD1C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588ADF11F5BBA140026DD1C /* Location.swift */; };
+		A588AE311F5BBA1E0026DD1C /* MessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588ADF21F5BBA140026DD1C /* MessageCollectionViewCell.swift */; };
+		A588AE321F5BBA1E0026DD1C /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588ADF31F5BBA140026DD1C /* AccountViewController.swift */; };
+		A588AE331F5BBA1E0026DD1C /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588ADF41F5BBA140026DD1C /* Logging.swift */; };
+		A588AE351F5BBA1E0026DD1C /* DislikedMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588ADF61F5BBA150026DD1C /* DislikedMessagesViewController.swift */; };
+		A588AE361F5BBA1E0026DD1C /* Communicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588ADF71F5BBA150026DD1C /* Communicate.swift */; };
+		A588AE371F5BBA1E0026DD1C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588ADF81F5BBA150026DD1C /* Persistence.swift */; };
+		A588AE381F5BBA1E0026DD1C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588ADF91F5BBA150026DD1C /* LoginViewController.swift */; };
+		A588AE3A1F5BBA1E0026DD1C /* RipplBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588ADFB1F5BBA160026DD1C /* RipplBaseViewController.swift */; };
+		A588AE3B1F5BBA1E0026DD1C /* RipplModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A588ADFC1F5BBA160026DD1C /* RipplModel.xcdatamodeld */; };
+		A588AE3C1F5BBA1E0026DD1C /* MessageDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588ADFF1F5BBA160026DD1C /* MessageDisplayView.swift */; };
+		A588AE3D1F5BBA1E0026DD1C /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588AE001F5BBA170026DD1C /* Validation.swift */; };
+		A588AE3E1F5BBA1E0026DD1C /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588AE011F5BBA170026DD1C /* CreateAccountViewController.swift */; };
+		A588AE3F1F5BBA1E0026DD1C /* HomeViewControllerMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588AE021F5BBA170026DD1C /* HomeViewControllerMap.swift */; };
+		A588AE401F5BBA1E0026DD1C /* LocationQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588AE031F5BBA170026DD1C /* LocationQueue.swift */; };
+		A588AE421F5BBA1E0026DD1C /* MessageDispositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588AE051F5BBA180026DD1C /* MessageDispositions.swift */; };
+		A588AE431F5BBA1E0026DD1C /* dropv1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A588AE061F5BBA180026DD1C /* dropv1.xcdatamodeld */; };
+		A588AE441F5BBA1E0026DD1C /* MessageQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588AE081F5BBA180026DD1C /* MessageQueue.swift */; };
+		A588AE471F5BBA1E0026DD1C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A588AE0B1F5BBA190026DD1C /* LaunchScreen.xib */; };
+		A588AE481F5BBA1E0026DD1C /* MessageDisplayActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588AE0C1F5BBA190026DD1C /* MessageDisplayActionView.swift */; };
+		A588AE491F5BBA1E0026DD1C /* LikedMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588AE0D1F5BBA1A0026DD1C /* LikedMessagesViewController.swift */; };
+		A588AE4B1F5BBA1E0026DD1C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588AE0F1F5BBA1A0026DD1C /* Utility.swift */; };
+		A588AE4C1F5BBA1E0026DD1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A588AE101F5BBA1A0026DD1C /* Main.storyboard */; };
+		A588AE4D1F5BBA1E0026DD1C /* LocalSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588AE111F5BBA1A0026DD1C /* LocalSession.swift */; };
+		A588AE4F1F5BBA1E0026DD1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588AE131F5BBA1B0026DD1C /* AppDelegate.swift */; };
+		A588AE501F5BBA1E0026DD1C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588AE141F5BBA1B0026DD1C /* HomeViewController.swift */; };
+		A588AE521F5BBA1E0026DD1C /* AppDelegatePeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588AE161F5BBA1B0026DD1C /* AppDelegatePeripheralManager.swift */; };
+		A588AE531F5BBA1E0026DD1C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588AE171F5BBA1C0026DD1C /* Constants.swift */; };
+		A588AE541F5BBA1E0026DD1C /* SavedLocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588AE181F5BBA1C0026DD1C /* SavedLocationsViewController.swift */; };
+		A588AE561F5BBA1E0026DD1C /* HomeViewControllerCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588AE1A1F5BBA1C0026DD1C /* HomeViewControllerCards.swift */; };
+		A588AE571F5BBA1E0026DD1C /* HomeViewControllerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588AE1B1F5BBA1C0026DD1C /* HomeViewControllerCollectionView.swift */; };
+		A588AE591F5BBA1E0026DD1C /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588AE1D1F5BBA1D0026DD1C /* Message.swift */; };
+		A588AE5A1F5BBA1E0026DD1C /* PeerQueue+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588AE1E1F5BBA1D0026DD1C /* PeerQueue+CoreDataProperties.swift */; };
+		A588AE5B1F5BBA1E0026DD1C /* Maintain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588AE1F1F5BBA1D0026DD1C /* Maintain.swift */; };
+		CF2345FA04525431AA4E7FF8 /* Pods_drop_alpha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB812F931A07696E15568C8 /* Pods_drop_alpha.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A55C42BE1F5C579100F507CE /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		A588ADCB1F5BB9950026DD1C /* drop_alpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drop_alpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A588ADCE1F5BB9950026DD1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A588ADD01F5BB9950026DD1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +70,53 @@
 		A588ADD81F5BB9950026DD1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A588ADDB1F5BB9950026DD1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A588ADDD1F5BB9950026DD1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A588ADE41F5BBA130026DD1C /* Navigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		A588ADE51F5BBA130026DD1C /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		A588ADE61F5BBA130026DD1C /* AppDelegateCoreLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateCoreLocation.swift; sourceTree = "<group>"; };
+		A588ADE71F5BBA130026DD1C /* PeerQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeerQueue.swift; sourceTree = "<group>"; };
+		A588ADE91F5BBA130026DD1C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A588ADEA1F5BBA130026DD1C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../dropv1/dropv1/ViewController.swift; sourceTree = "<group>"; };
+		A588ADEB1F5BBA130026DD1C /* Messaging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messaging.swift; sourceTree = "<group>"; };
+		A588ADEE1F5BBA140026DD1C /* AppDelegateMultipeerConnectivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateMultipeerConnectivity.swift; sourceTree = "<group>"; };
+		A588ADF01F5BBA140026DD1C /* drop_v1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = drop_v1.xcdatamodel; sourceTree = "<group>"; };
+		A588ADF11F5BBA140026DD1C /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		A588ADF21F5BBA140026DD1C /* MessageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCollectionViewCell.swift; sourceTree = "<group>"; };
+		A588ADF31F5BBA140026DD1C /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		A588ADF41F5BBA140026DD1C /* Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		A588ADF61F5BBA150026DD1C /* DislikedMessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DislikedMessagesViewController.swift; sourceTree = "<group>"; };
+		A588ADF71F5BBA150026DD1C /* Communicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Communicate.swift; sourceTree = "<group>"; };
+		A588ADF81F5BBA150026DD1C /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A588ADF91F5BBA150026DD1C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A588ADFB1F5BBA160026DD1C /* RipplBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RipplBaseViewController.swift; sourceTree = "<group>"; };
+		A588ADFD1F5BBA160026DD1C /* RipplModel 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "RipplModel 3.xcdatamodel"; sourceTree = "<group>"; };
+		A588ADFE1F5BBA160026DD1C /* RipplModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RipplModel.xcdatamodel; sourceTree = "<group>"; };
+		A588ADFF1F5BBA160026DD1C /* MessageDisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDisplayView.swift; sourceTree = "<group>"; };
+		A588AE001F5BBA170026DD1C /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		A588AE011F5BBA170026DD1C /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		A588AE021F5BBA170026DD1C /* HomeViewControllerMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewControllerMap.swift; sourceTree = "<group>"; };
+		A588AE031F5BBA170026DD1C /* LocationQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationQueue.swift; sourceTree = "<group>"; };
+		A588AE051F5BBA180026DD1C /* MessageDispositions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDispositions.swift; sourceTree = "<group>"; };
+		A588AE071F5BBA180026DD1C /* dropv1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dropv1.xcdatamodel; sourceTree = "<group>"; };
+		A588AE081F5BBA180026DD1C /* MessageQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageQueue.swift; sourceTree = "<group>"; };
+		A588AE0B1F5BBA190026DD1C /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		A588AE0C1F5BBA190026DD1C /* MessageDisplayActionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDisplayActionView.swift; sourceTree = "<group>"; };
+		A588AE0D1F5BBA1A0026DD1C /* LikedMessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikedMessagesViewController.swift; sourceTree = "<group>"; };
+		A588AE0F1F5BBA1A0026DD1C /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		A588AE101F5BBA1A0026DD1C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A588AE111F5BBA1A0026DD1C /* LocalSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalSession.swift; sourceTree = "<group>"; };
+		A588AE131F5BBA1B0026DD1C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../dropv1/dropv1/AppDelegate.swift; sourceTree = "<group>"; };
+		A588AE141F5BBA1B0026DD1C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A588AE161F5BBA1B0026DD1C /* AppDelegatePeripheralManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegatePeripheralManager.swift; sourceTree = "<group>"; };
+		A588AE171F5BBA1C0026DD1C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A588AE181F5BBA1C0026DD1C /* SavedLocationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedLocationsViewController.swift; sourceTree = "<group>"; };
+		A588AE1A1F5BBA1C0026DD1C /* HomeViewControllerCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewControllerCards.swift; sourceTree = "<group>"; };
+		A588AE1B1F5BBA1C0026DD1C /* HomeViewControllerCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewControllerCollectionView.swift; sourceTree = "<group>"; };
+		A588AE1D1F5BBA1D0026DD1C /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		A588AE1E1F5BBA1D0026DD1C /* PeerQueue+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PeerQueue+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A588AE1F1F5BBA1D0026DD1C /* Maintain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Maintain.swift; sourceTree = "<group>"; };
+		CFCB7A6E27D88261D4AE97CC /* Pods-drop_alpha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-drop_alpha.release.xcconfig"; path = "Pods/Target Support Files/Pods-drop_alpha/Pods-drop_alpha.release.xcconfig"; sourceTree = "<group>"; };
+		E4DD271237CA9645DB4B9A79 /* Pods-drop_alpha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-drop_alpha.debug.xcconfig"; path = "Pods/Target Support Files/Pods-drop_alpha/Pods-drop_alpha.debug.xcconfig"; sourceTree = "<group>"; };
+		FDB812F931A07696E15568C8 /* Pods_drop_alpha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_drop_alpha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +124,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF2345FA04525431AA4E7FF8 /* Pods_drop_alpha.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64274C82DE5857F25C0F9DC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDB812F931A07696E15568C8 /* Pods_drop_alpha.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A588ADC21F5BB9950026DD1C = {
 			isa = PBXGroup;
 			children = (
+				A55C42BE1F5C579100F507CE /* Podfile */,
 				A588ADCD1F5BB9950026DD1C /* drop_alpha */,
 				A588ADCC1F5BB9950026DD1C /* Products */,
+				E2B1AB5270BB74BEAF9CFB8D /* Pods */,
+				64274C82DE5857F25C0F9DC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +161,67 @@
 		A588ADCD1F5BB9950026DD1C /* drop_alpha */ = {
 			isa = PBXGroup;
 			children = (
+				A588ADF31F5BBA140026DD1C /* AccountViewController.swift */,
 				A588ADCE1F5BB9950026DD1C /* AppDelegate.swift */,
+				A588AE101F5BBA1A0026DD1C /* Main.storyboard */,
+				A588AE1F1F5BBA1D0026DD1C /* Maintain.swift */,
+				A588AE1D1F5BBA1D0026DD1C /* Message.swift */,
+				A588ADF21F5BBA140026DD1C /* MessageCollectionViewCell.swift */,
+				A588AE0C1F5BBA190026DD1C /* MessageDisplayActionView.swift */,
+				A588ADFF1F5BBA160026DD1C /* MessageDisplayView.swift */,
+				A588AE051F5BBA180026DD1C /* MessageDispositions.swift */,
+				A588AE081F5BBA180026DD1C /* MessageQueue.swift */,
+				A588ADEB1F5BBA130026DD1C /* Messaging.swift */,
+				A588ADE41F5BBA130026DD1C /* Navigator.swift */,
+				A588ADE71F5BBA130026DD1C /* PeerQueue.swift */,
+				A588AE1E1F5BBA1D0026DD1C /* PeerQueue+CoreDataProperties.swift */,
+				A588ADF81F5BBA150026DD1C /* Persistence.swift */,
+				A588ADE51F5BBA130026DD1C /* PostViewController.swift */,
+				A588ADFB1F5BBA160026DD1C /* RipplBaseViewController.swift */,
+				A588ADFC1F5BBA160026DD1C /* RipplModel.xcdatamodeld */,
+				A588AE181F5BBA1C0026DD1C /* SavedLocationsViewController.swift */,
+				A588ADE91F5BBA130026DD1C /* User.swift */,
+				A588AE0F1F5BBA1A0026DD1C /* Utility.swift */,
+				A588AE001F5BBA170026DD1C /* Validation.swift */,
 				A588ADD01F5BB9950026DD1C /* ViewController.swift */,
+				A588AE131F5BBA1B0026DD1C /* AppDelegate.swift */,
+				A588ADE61F5BBA130026DD1C /* AppDelegateCoreLocation.swift */,
+				A588ADEE1F5BBA140026DD1C /* AppDelegateMultipeerConnectivity.swift */,
+				A588AE161F5BBA1B0026DD1C /* AppDelegatePeripheralManager.swift */,
+				A588ADF71F5BBA150026DD1C /* Communicate.swift */,
+				A588AE171F5BBA1C0026DD1C /* Constants.swift */,
+				A588AE011F5BBA170026DD1C /* CreateAccountViewController.swift */,
+				A588ADF61F5BBA150026DD1C /* DislikedMessagesViewController.swift */,
+				A588ADEF1F5BBA140026DD1C /* drop_v1.xcdatamodeld */,
+				A588AE061F5BBA180026DD1C /* dropv1.xcdatamodeld */,
+				A588AE141F5BBA1B0026DD1C /* HomeViewController.swift */,
+				A588AE1A1F5BBA1C0026DD1C /* HomeViewControllerCards.swift */,
+				A588AE1B1F5BBA1C0026DD1C /* HomeViewControllerCollectionView.swift */,
+				A588AE021F5BBA170026DD1C /* HomeViewControllerMap.swift */,
+				A588AE0B1F5BBA190026DD1C /* LaunchScreen.xib */,
+				A588AE0D1F5BBA1A0026DD1C /* LikedMessagesViewController.swift */,
+				A588AE111F5BBA1A0026DD1C /* LocalSession.swift */,
+				A588ADF11F5BBA140026DD1C /* Location.swift */,
+				A588AE031F5BBA170026DD1C /* LocationQueue.swift */,
+				A588ADF41F5BBA140026DD1C /* Logging.swift */,
+				A588ADF91F5BBA150026DD1C /* LoginViewController.swift */,
 				A588ADD21F5BB9950026DD1C /* Main.storyboard */,
+				A588ADEA1F5BBA130026DD1C /* ViewController.swift */,
 				A588ADD81F5BB9950026DD1C /* Assets.xcassets */,
 				A588ADDA1F5BB9950026DD1C /* LaunchScreen.storyboard */,
 				A588ADDD1F5BB9950026DD1C /* Info.plist */,
 				A588ADD51F5BB9950026DD1C /* drop_alpha.xcdatamodeld */,
 			);
 			path = drop_alpha;
+			sourceTree = "<group>";
+		};
+		E2B1AB5270BB74BEAF9CFB8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4DD271237CA9645DB4B9A79 /* Pods-drop_alpha.debug.xcconfig */,
+				CFCB7A6E27D88261D4AE97CC /* Pods-drop_alpha.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A588ADE01F5BB9950026DD1C /* Build configuration list for PBXNativeTarget "drop_alpha" */;
 			buildPhases = (
+				26F8C02593F53155F57851DE /* [CP] Check Pods Manifest.lock */,
 				A588ADC71F5BB9950026DD1C /* Sources */,
 				A588ADC81F5BB9950026DD1C /* Frameworks */,
 				A588ADC91F5BB9950026DD1C /* Resources */,
+				502E192750E05D0792848585 /* [CP] Embed Pods Frameworks */,
+				C0E5526892648B4764DBA3AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +286,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A588AE471F5BBA1E0026DD1C /* LaunchScreen.xib in Resources */,
+				A588AE4C1F5BBA1E0026DD1C /* Main.storyboard in Resources */,
 				A588ADDC1F5BB9950026DD1C /* LaunchScreen.storyboard in Resources */,
 				A588ADD91F5BB9950026DD1C /* Assets.xcassets in Resources */,
 				A588ADD41F5BB9950026DD1C /* Main.storyboard in Resources */,
@@ -134,13 +296,103 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26F8C02593F53155F57851DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		502E192750E05D0792848585 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-drop_alpha/Pods-drop_alpha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0E5526892648B4764DBA3AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-drop_alpha/Pods-drop_alpha-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A588ADC71F5BB9950026DD1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A588AE361F5BBA1E0026DD1C /* Communicate.swift in Sources */,
+				A588AE3C1F5BBA1E0026DD1C /* MessageDisplayView.swift in Sources */,
+				A588AE261F5BBA1E0026DD1C /* AppDelegateCoreLocation.swift in Sources */,
+				A588AE251F5BBA1E0026DD1C /* PostViewController.swift in Sources */,
+				A588AE521F5BBA1E0026DD1C /* AppDelegatePeripheralManager.swift in Sources */,
+				A588AE3A1F5BBA1E0026DD1C /* RipplBaseViewController.swift in Sources */,
 				A588ADD11F5BB9950026DD1C /* ViewController.swift in Sources */,
+				A588AE311F5BBA1E0026DD1C /* MessageCollectionViewCell.swift in Sources */,
+				A588AE4B1F5BBA1E0026DD1C /* Utility.swift in Sources */,
+				A588AE591F5BBA1E0026DD1C /* Message.swift in Sources */,
+				A588AE5B1F5BBA1E0026DD1C /* Maintain.swift in Sources */,
+				A588AE4D1F5BBA1E0026DD1C /* LocalSession.swift in Sources */,
+				A588AE3E1F5BBA1E0026DD1C /* CreateAccountViewController.swift in Sources */,
+				A588AE301F5BBA1E0026DD1C /* Location.swift in Sources */,
+				A588AE371F5BBA1E0026DD1C /* Persistence.swift in Sources */,
+				A588AE2A1F5BBA1E0026DD1C /* ViewController.swift in Sources */,
+				A588AE271F5BBA1E0026DD1C /* PeerQueue.swift in Sources */,
+				A588AE571F5BBA1E0026DD1C /* HomeViewControllerCollectionView.swift in Sources */,
+				A588AE501F5BBA1E0026DD1C /* HomeViewController.swift in Sources */,
+				A588AE2F1F5BBA1E0026DD1C /* drop_v1.xcdatamodeld in Sources */,
+				A588AE381F5BBA1E0026DD1C /* LoginViewController.swift in Sources */,
+				A588AE351F5BBA1E0026DD1C /* DislikedMessagesViewController.swift in Sources */,
+				A55C42BF1F5C579100F507CE /* Podfile in Sources */,
+				A588AE531F5BBA1E0026DD1C /* Constants.swift in Sources */,
+				A588AE4F1F5BBA1E0026DD1C /* AppDelegate.swift in Sources */,
+				A588AE241F5BBA1E0026DD1C /* Navigator.swift in Sources */,
+				A588AE481F5BBA1E0026DD1C /* MessageDisplayActionView.swift in Sources */,
+				A588AE331F5BBA1E0026DD1C /* Logging.swift in Sources */,
+				A588AE3B1F5BBA1E0026DD1C /* RipplModel.xcdatamodeld in Sources */,
+				A588AE431F5BBA1E0026DD1C /* dropv1.xcdatamodeld in Sources */,
+				A588AE441F5BBA1E0026DD1C /* MessageQueue.swift in Sources */,
+				A588AE5A1F5BBA1E0026DD1C /* PeerQueue+CoreDataProperties.swift in Sources */,
+				A588AE421F5BBA1E0026DD1C /* MessageDispositions.swift in Sources */,
+				A588AE321F5BBA1E0026DD1C /* AccountViewController.swift in Sources */,
+				A588AE541F5BBA1E0026DD1C /* SavedLocationsViewController.swift in Sources */,
+				A588AE2E1F5BBA1E0026DD1C /* AppDelegateMultipeerConnectivity.swift in Sources */,
+				A588AE561F5BBA1E0026DD1C /* HomeViewControllerCards.swift in Sources */,
+				A588AE401F5BBA1E0026DD1C /* LocationQueue.swift in Sources */,
+				A588AE2B1F5BBA1E0026DD1C /* Messaging.swift in Sources */,
+				A588AE491F5BBA1E0026DD1C /* LikedMessagesViewController.swift in Sources */,
 				A588ADD71F5BB9950026DD1C /* drop_alpha.xcdatamodeld in Sources */,
+				A588AE3F1F5BBA1E0026DD1C /* HomeViewControllerMap.swift in Sources */,
+				A588AE291F5BBA1E0026DD1C /* User.swift in Sources */,
+				A588AE3D1F5BBA1E0026DD1C /* Validation.swift in Sources */,
 				A588ADCF1F5BB9950026DD1C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +528,7 @@
 		};
 		A588ADE11F5BB9950026DD1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4DD271237CA9645DB4B9A79 /* Pods-drop_alpha.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +544,7 @@
 		};
 		A588ADE21F5BB9950026DD1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFCB7A6E27D88261D4AE97CC /* Pods-drop_alpha.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -335,6 +589,37 @@
 			);
 			currentVersion = A588ADD61F5BB9950026DD1C /* drop_alpha.xcdatamodel */;
 			path = drop_alpha.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		A588ADEF1F5BBA140026DD1C /* drop_v1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A588ADF01F5BBA140026DD1C /* drop_v1.xcdatamodel */,
+			);
+			currentVersion = A588ADF01F5BBA140026DD1C /* drop_v1.xcdatamodel */;
+			path = drop_v1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		A588ADFC1F5BBA160026DD1C /* RipplModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A588ADFD1F5BBA160026DD1C /* RipplModel 3.xcdatamodel */,
+				A588ADFE1F5BBA160026DD1C /* RipplModel.xcdatamodel */,
+			);
+			currentVersion = A588ADFE1F5BBA160026DD1C /* RipplModel.xcdatamodel */;
+			path = RipplModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		A588AE061F5BBA180026DD1C /* dropv1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A588AE071F5BBA180026DD1C /* dropv1.xcdatamodel */,
+			);
+			currentVersion = A588AE071F5BBA180026DD1C /* dropv1.xcdatamodel */;
+			path = dropv1.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
