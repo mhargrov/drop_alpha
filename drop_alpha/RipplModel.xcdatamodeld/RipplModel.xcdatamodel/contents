@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="1.0" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Xcode 4.3">
+    <entity name="LocationQueue" representedClassName="LocationQueue" syncable="YES">
+        <attribute name="altitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="course" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="disposition" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="horizontalAccuracy" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="locationIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="markDateTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="placemark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="speed" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="userIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MessageQueue" representedClassName="MessageQueue" syncable="YES">
+        <attribute name="disposition" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="dispositionExecutionDateTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dispositionLat" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="dispositionLong" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postDateTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="precision" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="userIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PeerQueue" representedClassName=".PeerQueue" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="saved" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="userIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="LocationQueue" positionX="-369" positionY="90" width="128" height="30"/>
+        <element name="MessageQueue" positionX="-369" positionY="6" width="128" height="210"/>
+        <element name="PeerQueue" positionX="-369" positionY="117" width="128" height="90"/>
+    </elements>
+</model>
